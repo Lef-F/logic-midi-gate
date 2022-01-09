@@ -1,14 +1,9 @@
 /*
-With Scripter, you can use JavaScript to create your own custom MIDI processing 
-effects, including slider controls for real-time interaction.
+MIDI Velocity Gate
 
-For detailed information about using Scripter, including code samples, 
-see the MIDI plug-ins chapter of the Logic Pro X Effects or 
-MainStage 3 Effects manual.
+Developed by: Lef Filippakis
+Source: https://github.com/Lef-F/logic-midi-gate/blob/main/midi-gate.js
 */
-
-// example: simple pass through and MIDI monitor
-
 var PluginParameters = [
     {
         name:"Threshold",
